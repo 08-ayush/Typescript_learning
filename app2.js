@@ -29,3 +29,15 @@ function abcd(a, b) {
     return "Hello";
 }
 abcd("ak", "oberoi");
+//tyep assertion ka matlab ts ko ki particular cheez ka type kya hai, ye hum khud bata rahe hain
+let a = 12;
+//(a as number).
+//!or
+// (<number>a).
+//type casting
+let m = Number("12");
+console.log(m);
+//Non null asserton operator
+//  let n: string | null | undefined;
+//     n="Hello";
+//     n!.
