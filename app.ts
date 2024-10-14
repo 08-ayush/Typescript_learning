@@ -66,7 +66,7 @@ interface Admin extends User {
 
 function printAdmin(obj:Admin) {
     
-}
+} 
 
 //printAdmin({name:"John",age:23,role:"admin"});
 
@@ -80,12 +80,18 @@ type Person = {
   function p(obj:Person){
     obj.name="John";
   }
-  type digit= Number | string;
+  type digit= {x:Number ;
+     y: string; 
+    };
 
   function printPerson(person: digit) {
-    person="Aayush";
-    person=12;
+    // person="Aayush";
+    // person=12;
+    person.x = 12;
+    person.y = "Aayush";
   } 
+
+  printPerson({x:12,y:"Aayush"});
 
 
   // intersection type
