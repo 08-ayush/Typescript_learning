@@ -91,9 +91,12 @@ type Person = {
     person.y = "Aayush";
   } 
 
-  printPerson({x:12,y:"Aayush"});
+  printPerson({x:45,y:"arush"});
 
-
+//union type
+const data1: number[]= [1,2,3,4,5];
+const data2: string[]= ["a","b","c"];
+const data3: (number|string)[]=[1,2,3,"a","b","c"];
   // intersection type
 
   type User1={
