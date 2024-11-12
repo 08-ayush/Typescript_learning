@@ -72,6 +72,7 @@ class MetalBottle extends bottleMaker{
     }
     getValue(){
         console.log(this.name, this.nam);
+        console.log(this.nam);
         
     }
 }
